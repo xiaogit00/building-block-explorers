@@ -56,8 +56,12 @@ const blockExplorerURLs = [
       url: 'https://arbiscan.io/'
     },
     {
-      chainId: [421611, 'arbitrum-testnet'],
-      url: 'https://testnet.arbiscan.io/'
+      chainId: [421613, 'arbitrum-goerli'],
+      url: 'https://goerli.arbiscan.io/'
+    },
+    {
+      chainId: [42170, 'arbitrum-nova-mainnet'],
+      url: 'https://nova.arbiscan.io/'
     },
     {
       chainId: [250, 'fantom-mainnet'],
@@ -76,8 +80,20 @@ const blockExplorerURLs = [
       url: 'https://blockscout.com/poa/sokol'
     },
     {
-      chainId: [8217, 'klaytn-mainnet'],
-      url: 'https://scope.klaytn.com/'
+      chainId: [71402, 'nervos-godwoken-mainnet'],
+      url: 'https://v1.gwscan.com/'
+    },
+    {
+      chainId: [71401, 'nervos-godwoken-testnet'],
+      url: 'https://v1.testnet.gwscan.com/'
+    },
+    {
+      chainId: [2020, 'axie-mainnet'],
+      url: 'https://app.roninchain.com/'
+    },
+    {
+      chainId: [2020, 'axie-mainnet'],
+      url: 'https://app.roninchain.com/'
     },
     {
       chainId: [128, 'heco-mainnet'],
@@ -86,10 +102,6 @@ const blockExplorerURLs = [
     {
       chainId: [256, 'heco-testnet'],
       url: 'https://scan-testnet.hecochain.com/home/index'
-    },
-    {
-      chainId: [2020, 'axie-mainnet'],
-      url: 'https://explorer.roninchain.com/'
     },
     {
       chainId: [9001, 'evmos-mainnet'],
@@ -108,14 +120,6 @@ const blockExplorerURLs = [
       url: 'https://shiden.subscan.io/'
     },
     {
-      chainId: [4689, 'iotex-mainnet'],
-      url: 'https://iotexscan.io/'
-    },
-    {
-      chainId: [4690, 'iotex-testnet'],
-      url: 'https://testnet.iotexscan.io/'
-    },
-    {
       chainId: [1666600000, 'harmony-mainnet'],
       url: 'https://explorer.harmony.one/'
     },
@@ -124,8 +128,80 @@ const blockExplorerURLs = [
       url: 'https://explorer.pops.one/'
     },
     {
-      chainId: [25, 'cronos-mainnet'],
-      url: 'https://cronoscan.com/'
+      chainId: [1313161554, 'aurora-mainnet'],
+      url: 'https://explorer.mainnet.aurora.dev/'
+    },
+    {
+      chainId: [1313161555, 'aurora-testnet'],
+      url: 'https://explorer.testnet.aurora.dev/'
+    },
+    {
+      chainId: [42262, 'emerald-paratime-mainnet'],
+      url: 'https://explorer.emerald.oasis.dev/'
+    },
+    {
+      chainId: [53935, 'defi-kingdoms-mainnet'],
+      url: 'https://subnets.avax.network/defi-kingdoms'
+    },
+    {
+      chainId: [73772, 'swimmer-mainnet'],
+      url: 'https://subnets.avax.network/swimmer'
+    },
+    {
+      chainId: [288, 'boba-mainnet'],
+      url: 'https://bobascan.com/'
+    },
+    {
+      chainId: [43288, 'boba-avalanche-mainnet'],
+      url: 'https://blockexplorer.avax.boba.network/'
+    },
+    {
+      chainId: [1294, 'boba-bobabeam-mainnet'],
+      url: 'https://blockexplorer.bobabeam.boba.network/'
+    },
+    {
+      chainId: [4328, 'boba-avalanche-testnet'],
+      url: 'https://blockexplorer.testnet.avax.boba.network/'
+    },
+    {
+      chainId: [28, 'boba-rinkeby-testnet'],
+      url: 'https://testnet.bobascan.com/'
+    },
+    {
+      chainId: [1297, 'boba-bobabase-testnet'],
+      url: 'https://blockexplorer.bobabase.boba.network/'
+    },
+    {
+      chainId: [56288, 'boba-bnb-mainnet'],
+      url: 'https://blockexplorer.bnb.boba.network/'
+    },
+    {
+      chainId: [9728, 'boba-bnb-testnet'],
+      url: 'https://blockexplorer.testnet.bnb.boba.network/'
+    },
+    {
+      chainId: [1026062157, 'skale-omnus'],
+      url: 'https://skale-analytics.skalelabs.com/'
+    },
+    {
+      chainId: [278611351, 'skale-razor'],
+      url: 'https://staging-aware-chief-gianfar.explorer.staging-v3.skalenodes.com/'
+    },
+    {
+      chainId: [2046399126, 'skale-europa'],
+      url: 'https://skale-analytics.skalelabs.com/'
+    },
+    {
+      chainId: [1564830818, 'skale-calypso'],
+      url: 'https://skale-analytics.skalelabs.com/'
+    },
+    {
+      chainId: [192837465, 'gather-mainnet'],
+      url: 'https://explorer.gather.network/'
+    },
+    {
+      chainId: [356256156, 'gather-testnet'],
+      url: 'https://testnet-explorer.gather.network/'
     }
   ]
   
