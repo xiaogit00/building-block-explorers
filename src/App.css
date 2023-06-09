@@ -35,6 +35,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 8px;
+  margin: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.block:hover {
+  border: 1px solid rgb(140, 219, 255);
+  border-radius: 8px;
+}
+
+.block:active {
+  border: 1px solid rgb(68, 195, 254);
+  border-radius: 8px;
 }
 
 .blockNumber {
@@ -53,6 +67,20 @@ body {
   padding: 16px;
 }
 
+.topTitle {
+  margin: auto;
+  font-size: 2em;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.chainLogo {
+  filter: invert(1);
+  height: 36px;
+  width: 36px;
+}
+
 .transactionsComponent {
   margin-top: 32px;
   min-height: 400px;
@@ -62,6 +90,19 @@ body {
   background-color: white;
 }
 
+.table {
+  width: 100%;
+
+}
+
+.ant-table-row {
+  min-height: 96px;
+}
+
+
+.copyText {
+  cursor: pointer;
+}
 /* Debugging */
 
 .debugRed {
