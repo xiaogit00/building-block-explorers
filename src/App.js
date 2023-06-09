@@ -4,7 +4,7 @@ import { Select, Empty, Spin } from 'antd';
 import axios from 'axios'
 import Transactions from './components/Transactions';
 import { blockExplorerURLs } from './utils/blockExplorerURLs';
-import { allChains } from './data/allChains';
+import { allChains } from './utils/allChains';
 
 function App() {
 
